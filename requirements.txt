@@ -1,0 +1,4 @@
+python-osc
+opencv-python
+numpy
+tensorflow==2.12.1
