@@ -3,3 +3,20 @@
 ```
 Set-ExecutionPolicy RemoteSigned
 ```
+
+해당 폴더에서
+```
+python -m venv .venv
+```
+venv 진입
+```
+/./.venv/Scripts/activate.ps1
+```
+필요한 패키지 설치
+```
+pip install -r ./requirements.txt
+```
+실행
+```
+python ./oscout.py
+```
