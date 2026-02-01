@@ -40,7 +40,7 @@ for i in cams:
 cam_index = int(input("사용할 카메라 번호를 입력하세요: "))
 camera = cv2.VideoCapture(cam_index)
 
-client = udp_client.SimpleUDPClient("127.0.0.1", 10000)
+client = udp_client.SimpleUDPClient("192.168.150.177", 10000)
 # ------------------------------------
 
 while True:
